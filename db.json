@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Victor",
+      "email": "victor@gmail.com",
+      "password": "hashed_password_victor",
+      "ruc": 1110,
+      "phone": 2220,
+      "roles": [
+        "vet-center"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Harold",
+      "email": "harold@gmail.com",
+      "password": "hashed_password_harold",
+      "dni": 11110,
+      "phone": 231310,
+      "roles": [
+        "pet-owner"
+      ]
+    }
+  ],
+  "vet-centers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "imageProfile": "owo?",
+      "description": "uwu"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "petOwnerId": 2,
+      "vetCenterId": 1,
+      "serviceType": "CHECKS",
+      "bookingDetails": {
+        "appointmentDateTime": "2024-10-24T18:21:09.514Z",
+        "additionalInfo": "owo"
+      },
+      "price": 21,
+      "bookingDate": "2024-10-24T18:21:09.514Z"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "vet-center"
+    },
+    {
+      "id": 2,
+      "name": "pet-owner"
+    }
+  ],
+  "pet-owners": [
+    {
+      "id": 2,
+      "userId": 2,
+      "photo": "owo?"
+    }
+  ]
+}
